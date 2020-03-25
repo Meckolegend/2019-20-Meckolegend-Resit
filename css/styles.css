@@ -7,6 +7,9 @@ body {
   background: red;
 }
 
+a{
+  color: black;
+}
 
 
 /* TABLET STYLES */
@@ -17,6 +20,9 @@ body {
 
   body {
     background: gray;
+  }
+  a{
+    color: black;
   }
 }
 
@@ -30,5 +36,8 @@ body {
 
   body {
     background: aquamarine;
+  }
+  a{
+    color: black;
   }
 }
