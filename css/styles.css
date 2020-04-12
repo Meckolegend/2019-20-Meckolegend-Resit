@@ -8,6 +8,7 @@ body {
 }
 
 a{
+  text-align: center;
   color: black;
 }
 
@@ -22,6 +23,7 @@ a{
     background: gray;
   }
   a{
+    text-align: center;
     color: black;
   }
 }
@@ -38,6 +40,7 @@ a{
     background: aquamarine;
   }
   a{
+    text-align: center;
     color: black;
   }
 }
