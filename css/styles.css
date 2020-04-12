@@ -5,10 +5,10 @@
 
 body {
   background: red;
+  text-align: center;
 }
 
 a{
-  text-align: center;
   color: black;
 }
 
@@ -23,7 +23,6 @@ a{
     background: gray;
   }
   a{
-    text-align: center;
     color: black;
   }
 }
@@ -38,9 +37,9 @@ a{
 
   body {
     background: aquamarine;
+    text-align: center;
   }
   a{
-    text-align: center;
     color: black;
   }
 }
