@@ -24,6 +24,7 @@ a{
   }
   a{
     color: black;
+
   }
 }
 
@@ -37,9 +38,16 @@ a{
 
   body {
     background: aquamarine;
-    text-align: center;
+    text-align: left;
   }
   a{
     color: black;
+  }
+  h1{
+    font: Times, serif;
+    font
+  }
+#Logo{
+    float: left
   }
 }
