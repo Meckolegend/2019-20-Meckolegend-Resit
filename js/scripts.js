@@ -1,6 +1,7 @@
 const webShortcut = document.getElementById("Logo");
 const colorchange = document.getElementById("color-change");
-const colorchange2= document.getElementById("color-colorchange2")
+const colorchange2= document.getElementById("color-change2")
+
 function shortcut() {
   alert("You have found a shortcut. You may now go to the home page");
 }
