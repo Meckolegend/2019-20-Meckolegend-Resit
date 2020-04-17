@@ -4,7 +4,7 @@
 /* and above unless overwritten below */
 
 body {
-  background: red;
+  background: darkblue;
   text-align: center;
 }
 
@@ -20,7 +20,8 @@ a{
   /* applies to screens wider than 499px */
 
   body {
-    background: gray;
+    background: slateblue;
+    text-align: center;
   }
   a{
     color: black;
@@ -38,7 +39,7 @@ a{
 
   body {
     background: aquamarine;
-    text-align: left;
+    text-align: center;
   }
   a{
     color: black;
@@ -46,8 +47,5 @@ a{
   h1{
     font: Times, serif;
     font
-  }
-#Logo{
-    float: left
   }
 }
