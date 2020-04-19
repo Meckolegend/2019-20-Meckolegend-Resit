@@ -18,6 +18,13 @@ h1{
 p{
   font-size: 16px;
 }
+nav a
+{
+  background: lightblue;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 7px solid lightblue;
+}
 
 /* TABLET STYLES */
 
@@ -41,6 +48,13 @@ p{
   }
   p{
     font-size: 18px;
+  }
+  nav a
+  {
+    background: lightblue;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 7px solid lightblue;
   }
 }
 
