@@ -10,4 +10,5 @@ It has 4 pages being:
 I have also included a CSS folder with the file called
 #styles.css
 
-I shall be attempting at some point to add some Javascript in with one being an alert which will appear when clicking the Logo to show the user that they've found a hidden link. As well as this I would like to add Google Maps implementation on the Contacts page.
+Map API used- https://leafletjs.com/
+Tutorial for Color Change to understand how to do it - https://stackoverflow.com/questions/21663003/change-background-color-with-button-in-html-page-how-to-use-more-than-1-color
