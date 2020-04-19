@@ -87,4 +87,12 @@ nav a
     margin-right: 5px;
     border: 7px solid lightblue;
   }
+  #color-change {
+  text-align: center;
+  background-color:pink;
+}
+  #color-change2{
+    text-align: center;
+    background-color: teal;
+  }
 }
