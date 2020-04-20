@@ -4,7 +4,7 @@
 /* and above unless overwritten below */
 
 body {
-  background: lightblue;
+  background: aquamarine;
   text-align: center;
 }
 
@@ -33,7 +33,7 @@ nav a
   /* applies to screens wider than 499px */
 
   body {
-    background: slateblue;
+    background: aquamarine;
     text-align: center;
   }
   a{
