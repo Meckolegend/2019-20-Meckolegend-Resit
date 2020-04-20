@@ -7,17 +7,6 @@ function shortcut() {
 }
 webShortcut.addEventListener("click", shortcut);
 
-function pink(){
-  console.log("The body of the webpage is now the colour of Leicester's Away Kit")
-  document.body.style.backgroundColor="pink"
-}
-colorchange.addEventListener("click",pink);
-function blue(){
-  console.log("The body of the webpage is now the colour of Leicester's Home Kit")
-  document.body.style.backgroundColor="teal"
-}
-colorchange2.addEventListener("click",blue);
-
 var map = L.map('map').setView([0, 0], 1);
       L.tileLayer('https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=KWjtmivf2lKbLnZB4srb',{
         tileSize: 512,
