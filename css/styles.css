@@ -25,6 +25,7 @@
      margin-left: 5px;
      margin-right: 5px;
      border: 7px solid lightblue;
+     border-radius: 4px;
 }
  #map {
      margin-left: auto;
@@ -97,11 +98,21 @@
     }
      #color-change {
          text-align: center;
+         background-color:white;
+    }
+     #color-change:hover {
+         text-align: center;
          background-color:pink;
+         border-color: hotpink;
     }
      #color-change2{
          text-align: center;
-         background-color: teal;
+         background-color: white;
+    }
+     #color-change2:hover{
+         text-align: center;
+         background-color:teal;
+         border-color: lightblue;
     }
      #map {
          margin-left: auto;
