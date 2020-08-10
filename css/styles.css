@@ -1,127 +1,132 @@
 /* MOBILE AND GLOBAL STYLES */
+
 /* applies to screens smaller than 500px (first breakpoint) */
+
 /* and above unless overwritten below */
- body {
-     background: aquamarine;
-     text-align: center;
+
+body {
+  background: aquamarine;
+  text-align: center;
 }
- a{
-     color: black;
+a {
+  color: black;
 }
- h1{
-     text-decoration: underline;
-     font: 1em "Fira Sans", sans-serif;
+h1 {
+  text-decoration: underline;
+  font: 1em "Fira Sans", sans-serif;
 }
- #LeicesterPerform{
-     text-decoration: underline;
-     font: 1em "Fira Sans", sans-serif;
+#LeicesterPerform {
+  text-decoration: underline;
+  font: 1em "Fira Sans", sans-serif;
 }
- p{
-     font-size: 16px;
+p {
+  font-size: 16px;
 }
- nav a {
-     font-size: 12px;
-     background: lightblue;
-     margin-left: 5px;
-     margin-right: 5px;
-     border: 7px solid lightblue;
-     border-radius: 4px;
+nav a {
+  font-size: 12px;
+  background: lightblue;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 7px solid lightblue;
+  border-radius: 4px;
 }
- #map {
-     margin-left: auto;
-     margin-right: auto;
-     top: 0;
-     right: 0;
-     bottom: 0;
-     left: 0;
-     height:300px;
-     width:330px;
+#map {
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 300px;
+  width: 330px;
 }
 /* TABLET STYLES */
- @media screen and (min-width: 500px) {
-    /* applies to screens wider than 499px */
-     body {
-         background: aquamarine;
-         text-align: center;
-    }
-     a{
-         color: black;
-    }
-     h1{
-         text-decoration: underline;
-         font: 2em "Fira Sans", sans-serif;
-    }
-     p{
-         font-size: 18px;
-    }
-     nav a {
-         font-size: 14px;
-         background: lightblue;
-         margin-left: 5px;
-         margin-right: 5px;
-         border: 7px solid lightblue;
-    }
-     #map {
-         margin-left: auto;
-         margin-right: auto;
-         top: 0;
-         right: 0;
-         bottom: 0;
-         left: 0;
-         height:300px;
-         width:450px;
-    }
+
+@media screen and (min-width: 500px) {
+  /* applies to screens wider than 499px */
+  body {
+    background: aquamarine;
+    text-align: center;
+  }
+  a {
+    color: black;
+  }
+  h1 {
+    text-decoration: underline;
+    font: 2em "Fira Sans", sans-serif;
+  }
+  p {
+    font-size: 18px;
+  }
+  nav a {
+    font-size: 14px;
+    background: lightblue;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 7px solid lightblue;
+  }
+  #map {
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 300px;
+    width: 450px;
+  }
 }
 /* DESKTOP STYLES */
- @media screen and (min-width: 1000px) {
-    /* applies to screens wider than 999px */
-     body {
-         background: aquamarine;
-         text-align: center;
-    }
-     a{
-         color: black;
-    }
-     h1{
-         text-decoration: underline;
-         font: 2em "Fira Sans", sans-serif;
-    }
-     p{
-         font-size: 18px;
-    }
-     nav a {
-         font-size: 14px;
-         background: lightskyblue;
-         margin-left: 5px;
-         margin-right: 5px;
-         border: 7px solid lightblue;
-    }
-     #color-change {
-         text-align: center;
-         background-color:white;
-    }
-     #color-change:hover {
-         text-align: center;
-         background-color:pink;
-         border-color: hotpink;
-    }
-     #color-change2{
-         text-align: center;
-         background-color: white;
-    }
-     #color-change2:hover{
-         text-align: center;
-         background-color:teal;
-         border-color: lightblue;
-    }
-     #map {
-         margin-left: auto;
-         margin-right: auto;
-         top: 0;
-         right: 0;
-         bottom: 0;
-         left: 0;
-         height:400px;
-         width:550px;
-    }
+
+@media screen and (min-width: 1000px) {
+  /* applies to screens wider than 999px */
+  body {
+    background: aquamarine;
+    text-align: center;
+  }
+  a {
+    color: black;
+  }
+  h1 {
+    text-decoration: underline;
+    font: 2em "Fira Sans", sans-serif;
+  }
+  p {
+    font-size: 18px;
+  }
+  nav a {
+    font-size: 14px;
+    background: lightskyblue;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 7px solid lightblue;
+  }
+  #color-change {
+    text-align: center;
+    background-color: white;
+  }
+  #color-change:hover {
+    text-align: center;
+    background-color: pink;
+    border-color: hotpink;
+  }
+  #color-change2 {
+    text-align: center;
+    background-color: white;
+  }
+  #color-change2:hover {
+    text-align: center;
+    background-color: teal;
+    border-color: lightblue;
+  }
+  #map {
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 400px;
+    width: 550px;
+  }
 }
