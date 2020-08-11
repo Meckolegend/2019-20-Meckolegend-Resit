@@ -94,6 +94,10 @@ nav a {
   p {
     font-size: 18px;
   }
+  h2{
+    text-decoration: underline;
+    font: 2em "Fira Sans", sans-serif;
+  }
   nav a {
     font-size: 14px;
     background: lightskyblue;
