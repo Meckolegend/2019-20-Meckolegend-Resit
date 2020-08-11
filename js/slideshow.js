@@ -1,17 +1,17 @@
-const slidenumb = 1;
-showDivs(slidenumb);
+const slideIndex = 1;
+showDivs(slideIndex);
 
 function plusDivs(n) {
-  showDivs(slidenumb += n);
+  showDivs(slideIndex += n);
 }
 
 function showDivs(n) {
-  const v;
-  const u = document.getElementsByClassName("results");
-  if (n > u.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = u.length} ;
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
   for (i = 0; i < x.length; i++) {
-    u[i].style.display = "none";
+    x[i].style.display = "none";
   }
   x[slideIndex-1].style.display = "block";
 }
